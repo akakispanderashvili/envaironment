@@ -1,0 +1,37 @@
+{
+  "name": "assignm",
+  "version": "1.0.0",
+  "description": "omedia bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node scripts/server.js",
+    "localtunnel": "lt --port 3000",
+    "build": "webpack --config webpack.config.js",
+    "format:all": "prettier --write \"src/**/*.js\"",
+    "share": "npm-run-all --parallel start localtunnel",
+    "lint": "eslint src"
+  },
+  "author": "AS",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.19.3",
+    "@babel/core": "^7.20.2",
+    "@babel/node": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.0",
+    "date-fns": "^2.29.3",
+    "express": "^4.18.2",
+    "localtunnel": "^2.0.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.7.1",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-middleware": "^5.3.3"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.2",
+    "html-webpack-plugin": "^5.5.0"
+  }
+}
