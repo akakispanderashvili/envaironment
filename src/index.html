@@ -1,11 +1,43 @@
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>ჰეი</h1>
+    <div class="full-part2">
+      <div class="container">
+        <h1></h1>
+        <input type="text" placeholder="type movie name..." id="movie-inp" />
+        <button id="search" class="button">search</button>
+      </div>
+    </div>
+    <div class="full-part3" id="full-part3">
+      <div class="country-item">
+        <img id="countryFlag" src="https://flagcdn.com/ge.svg" class="flag" />
+        <ul>
+          <li id="passedYears">how many years passed</li>
+          <li id="actPeople">actors and actresses</li>
+          <li id="currency">currency</li>
+        </ul>
+      </div>
+    </div>
+    <div class="full-part4">
+      <div class="container">
+        <h1></h1>
+        <input type="text" placeholder="type country..." id="movie1" />
+        <input type="text" placeholder="type country..." id="movie2" />
+        <input type="text" placeholder="type country..." id="movie3" />
+        <button id="search2" class="send-button">search</button>
+      </div>
+    </div>
+    <div class="full-part5">
+      <h4 id="sumLength">sum length</h4>
+      <h4 id="sumPopulation">sum population</h4>
+    </div>
   </body>
+  <script src="./index.js"></script>
 </html>
