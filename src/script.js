@@ -1,4 +1,3 @@
-// import { isToday } from "date-fns";
 import './style.css';
 let searchBtn = document.getElementById("search");
 let searchBtn2 = document.getElementById("search2");

@@ -1,9 +1,7 @@
 import webpack from "webpack";
 import config from "../webpack.config";
 
-
 const compiler = webpack(config);
-
 const express = require("express");
 const open = require("open");
 const port = 3005;
